@@ -1,0 +1,35 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "react": {
+    "createClass": "createReactClass",
+    "pragma": "React",
+    "fragment": "Fragment",
+    "version": "19.1.0",
+    "defaultVersion": "",
+    "flowVersion": "0.53"
+  },
+  "overrides": [
+    {
+      "files": ["*.js", "*.cjs"],
+      "env": {
+        "node": true
+      },
+      "rules": {
+        "no-undef": "off"
+      }
+    }
+  ]
+}
