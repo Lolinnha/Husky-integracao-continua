@@ -172,7 +172,7 @@ module.exports = {
 
 <div align="center">
   <sub>Figura 4: Exemplo de erro</sub><br>
-  <img src="./images/erro.png" alt="Erro" width="80%"><br>
+  <img src="./images/erro_module.png" alt="Erro" width="80%"><br>
   <sup>Fonte: Anna Aragão (2025)</sup>
 </div>
 
