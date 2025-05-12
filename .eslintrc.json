@@ -23,7 +23,7 @@
   },
   "overrides": [
     {
-      "files": ["*.js", "*.cjs"],
+      "files": ["*.js", "*.cjs", "**/*.js", "**/*.cjs"],
       "env": {
         "node": true
       },
@@ -31,5 +31,6 @@
         "no-undef": "off"
       }
     }
-  ]
+  ],
+  "ignorePatterns": ["babel.config.js", "jest.config.js", "dist/", "build/"]
 }

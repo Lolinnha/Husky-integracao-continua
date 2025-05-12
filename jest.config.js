@@ -1,6 +1,8 @@
-export const preset = "ts-jest";
-export const testEnvironment = "node";
-export const transform = {
-  "^.+\\.tsx?$": "ts-jest",
+export default {
+  preset: "ts-jest",
+  testEnvironment: "node",
+  transform: {
+    "^.+\\.tsx?$": "ts-jest",
+  },
+  moduleFileExtensions: ["ts", "tsx", "js", "json", "node"],
 };
-export const moduleFileExtensions = ["ts", "tsx", "js", "json", "node"];
