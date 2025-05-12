@@ -44,7 +44,7 @@ npm run build
 
 <div align="center">
   <sub>Figura 1: Pré-commit funcional</sub><br>
-  <img src="./images/pre-commit.png" alt="Locust Ramp" width="80%"><br>
+  <img src="./images/pre-commit.png" alt="pre commit" width="80%"><br>
   <sup>Fonte: Anna Aragão (2025)</sup>
 </div>
 
@@ -61,7 +61,7 @@ npm test
 
 <div align="center">
   <sub>Figura 2: Pré-push funcional com build</sub><br>
-  <img src="./images/pre-push.png" alt="Locust Ramp" width="80%"><br>
+  <img src="./images/push.png" alt="Pre push" width="80%"><br>
   <sup>Fonte: Anna Aragão (2025)</sup>
 </div>
 
@@ -172,7 +172,7 @@ module.exports = {
 
 <div align="center">
   <sub>Figura 4: Exemplo de erro</sub><br>
-  <img src="./images/error.png" alt="Locust Ramp" width="80%"><br>
+  <img src="./images/erro.png" alt="Erro" width="80%"><br>
   <sup>Fonte: Anna Aragão (2025)</sup>
 </div>
 
